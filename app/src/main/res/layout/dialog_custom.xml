@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="10dp"
+        android:padding="16dp">
+
+        <EditText
+            android:hint="Enter Height"
+            android:id="@+id/etLength"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:layout_height="60dp"
+            android:hint="Enter Width"
+            android:id="@+id/etWidth"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal" />
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Calculate" />
+
+
+
+    </LinearLayout>

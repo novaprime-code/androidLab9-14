@@ -43,23 +43,7 @@
             android:id="@+id/btnExperiment10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exp. 10 Options Menu"
-            android:layout_gravity="center"
-            android:layout_marginBottom="16dp" />
-
-        <Button
-            android:id="@+id/btnExperiment11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Exp. 11 Context Menu"
-            android:layout_gravity="center"
-            android:layout_marginBottom="16dp" />
-
-        <Button
-            android:id="@+id/btnExperiment12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Exp. 12 Popup Menu"
+            android:text="Exp. 10, 11, 12 ( All Menu Types)"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp" />
 

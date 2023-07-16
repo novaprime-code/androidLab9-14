@@ -43,6 +43,13 @@ private Button btnFragmentA, btnFragmentB,btnFragmentC;
                 loadFragment(new FragmentC());
             }
         });
+        Button btnBack = findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish(); // Close the current activity and return to the previous activity
+            }
+        });
 
     }
     private void loadFragment(Fragment fragment){
