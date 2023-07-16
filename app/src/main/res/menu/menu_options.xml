@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_option1"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_option2"
+        android:title="Accounts" />
+    <item
+        android:id="@+id/menu_option3"
+        android:title="Details" />
+    <item
+        android:id="@+id/menu_option4"
+        android:title="Settings" />
+    <item
+        android:id="@+id/menu_option5"
+        android:title="Logout" />
+</menu>
